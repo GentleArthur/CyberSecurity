@@ -146,7 +146,7 @@ def attack(source, command, save, command_out):
         f_loss = getf2loss(logits_softmax, command_replaced, dict, logits, maxIndexSet)
 
         AE_Command = processor.batch_decode(torch.argmax(logits2, dim=-1))
-        print('Transcription:', AE_Command[0])
+        print('AE_Command:', AE_Command[0])
 
         if AE_Command[0] == command_out.upper():
             print('succeed')
