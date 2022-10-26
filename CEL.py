@@ -187,5 +187,5 @@ if __name__ == '__main__':
 
     command = text[int(args.command)]
     command_out = text_out[int(args.command)]
-    print(int(args.command))
+    # print(int(args.command))
     attack(source=y_torch, command=command, save=args.save, command_out=command_out)
