@@ -3,4 +3,4 @@ Our solution won first place in a CyberSecurity competition.Our method has a hig
 # Usage
 Our most prominent code can be seen in CEL.py.Different samples and different target orders require different number of iterations.In our code, four parameters need to be entered, including the original audio file, the target command (special note: the target command to be attacked needs to have consecutive identical letters with a '/' in the middle), the save path and the compare target command (this command is compared with the output command of the adversarial example without the '/').
 # adversarial examples
-Our production confrontation samples can be downloaded in "AES.rar".
+Our production confrontation samples can be downloaded in https://pan.baidu.com/s/17hpv9zPtxGixXU5-t4cfYQ，the code is "csae".
