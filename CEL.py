@@ -173,7 +173,7 @@ if __name__ == '__main__':
     processor = Wav2Vec2Processor.from_pretrained(r'yongjian/wav2vec2-large-a')
     model = Wav2Vec2ForCTC.from_pretrained(r'yongjian/wav2vec2-large-a')
 
-    parser = argparse.ArgumentParser(description='OPT Adversarial Examples')
+    parser = argparse.ArgumentParser(description='Adversarial Examples')
     parser.add_argument('--originalFlie', dest='originalFlie', type=str, help='Addreess of the sourceOriginal file', default=r'D:cybersecurity\data\music\01.wav')
     parser.add_argument('--command', dest='command', type=str, help='Your attack target command', default=text[0])
     parser.add_argument('--save', dest='save', type=str, help='Addreess of the saved file', default='./AES/carrier01_c01.wav')
